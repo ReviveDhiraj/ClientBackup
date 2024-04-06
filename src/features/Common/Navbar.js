@@ -166,8 +166,8 @@ export default function Navbar() {
                 </Disclosure.Button>
                 </div>
               ))}
-              <button onClick={()=>handleSendEveryone()} className='text-white p-3'>SendEveryone</button>
-              <button onClick={()=>handleLogout()}>Logout</button>
+              <button onClick={()=>handleSendEveryone()} className='text-white p-3 block'>SendEveryone</button>
+              <button onClick={()=>handleLogout()} className='text-white p-3 block'>Logout</button>
             </div>
           </Disclosure.Panel>
         </>
